@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import url('https://fonts.googleapis.com/css?family=Manrope:regular,bold,italic&subset=latin,latin-ext');
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,9 +26,16 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
+
+          
         </Link>
+        link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"></link>
       </h1>
     </div>
+
+    
   </header>
 )
 
